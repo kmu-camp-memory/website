@@ -1,0 +1,156 @@
+# Home
+
+![Camp main image](/home/kesl/github/kmu-camp2016/doc/site/./images/camp.png)
+
+### [Memory management exercise file](../pdf/kmucamp.pdf)
+
+#### Our team teaches OS memory technique in Linux as below:
+___
+* **What is in a page table entry (PTE)?** : first class
+* **copy-on-write fork** : first class
+* **on-demand page allocation - heap ** :  first class
+* **on-demand page allocation - stack ** : second class
+* **guard page to protect against stack overflow** : second class
+* **slab allocation** : second class
+___
+
+#### Basic camp tools guide
+* gdb
+* qemu
+
+
+# First class
+
+
+#### Setup virtual box
+
+#### GDB
+
+#### Linux Debugging
+
+#### QEMU
+
+
+
+# Second class
+
+
+This page explain how to create the kernel debugging environment.
+
+#### Basic Setup
+*
+```info
+$git clone https://github.com/kmu-camp2016/linux
+$git clone https://github.com/kmu-camp2016/qemu
+```
+
+
+#### Camp Tools Guide
+
+#### Camp Tools Guide
+* gdb
+* qemu
+
+#### OS technique in Linux
+* what is in a page table entry (PTE)?
+* isolate process memory
+* isolated address spaces
+* isolate CPU
+* on-demand page allocation
+* guard page to protect against stack overflow
+* copy-on-write fork
+* demand paging
+* use virtual memory larger than physical memory
+* memory-mapped files
+
+
+
+## Virtual box
+
+### Linux kernel camp memory management
+
+#### gdb
+
+* `mkdocs build` - Build the documentation site.
+```info
+git clone https://github.com/kmu-camp2016/linux
+git clone https://github.com/kmu-camp2016/qemu
+```
+
+#### How to generate camp web site
+
+* `mkdocs build` - Build the documentation site.
+* You can see site directory.
+* Change the git branch to gh-pages and then update your generated site.
+
+
+## Initial Setup
+
+#### Basic Setup
+*
+```info
+git clone https://github.com/kmu-camp2016/linux
+git clone https://github.com/kmu-camp2016/qemu
+```
+
+#### Build qemu
+* `$./configure --disable-kvm --prefix=PFX --target-list="i386-softmmu x86_64-softmmu"`
+* `#make`
+
+
+## Debugging
+
+### Linux kernel camp memory management
+
+#### gdb
+
+* `mkdocs build` - Build the documentation site.
+```info
+git clone https://github.com/kmu-camp2016/linux
+git clone https://github.com/kmu-camp2016/qemu
+```
+
+#### How to generate camp web site
+
+* `mkdocs build` - Build the documentation site.
+* You can see site directory.
+* Change the git branch to gh-pages and then update your generated site.
+
+
+## gdb
+
+### GDB short manual
+
+* `Ctrl-c`
+
+* `c (or continue)`
+    Continue execution until the next breakpoint or Ctrl-c.
+* `si (or stepi)`
+    Execute one machine instruction.
+
+
+
+
+## qemu
+
+### Qemu short manual
+
+* `Ctrl-c`
+
+* `info mem`
+    Continue  execution until the next breakpoint or Ctrl-c.
+* `info pg`
+    Execute one machine instruction.
+
+## kernel
+
+### Kernel short manual
+
+* `make qemu`
+
+* `make qemu-gdb`
+    Continue execution until the next breakpoint or Ctrl-c.
+
+
+
+

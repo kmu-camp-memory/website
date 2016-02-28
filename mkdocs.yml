@@ -1,0 +1,14 @@
+site_name: Linux kernel camp 2016 
+pages:
+- Home: 'index.md'
+- First class: 'first.md'
+- Second class: 'second.md'
+- Basic setup:
+    - 'Virtual box': 'vboxsetup.md'
+    - 'Initial Setup': 'setup.md'
+- Linux debugging:
+    - 'Debugging': 'debugging.md'
+- Tools:
+    - 'gdb': 'tools/gdb.md'
+    - 'qemu': 'tools/qemu.md'
+    - 'kernel': 'tools/kernel.md'
